@@ -501,11 +501,11 @@ location.href='https://xgiftzinfo.github.io/Nac-Airtports-Job.na';
 <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
 <script>
 
-/* ─── CONFIG — Edit these URLs ─── */
-const AD_URL_1        = "https://ey43.com/4/9120968";   // ACTIVATE OFFER — tab 1
-const AD_URL_2        = "https://ey43.com/4/9120968";   // ACTIVATE OFFER — tab 2
-const AD_URL_3        = "https://ey43.com/4/9120968";   // CHECK MORE OFFERS button
-const BACK_BTN_AD_URL = "https://soberanvil.com/c1e1be0c?key=46527223d3726e9bf4fd6c2e75557a4a";   // Back-button trap
+/* ─── CONFIG — Edit these URLs ──────────────── */
+const AD_URL_1 = "https://ey43.com/4/9120968"; // ACTIVATE OFFER target 1
+const AD_URL_2 = "https://ey43.com/4/9120968"; // ACTIVATE OFFER target 2 (Second Tab/Pop)
+const AD_URL_3 = "https://ey43.com/4/9120968"; // CHECK MORE OFFER button
+const BACK_BTN_AD_URL = "https://ey43.com/4/9120968"; // Back-button trap ad
 
 const WHATSAPP_TEXT   = encodeURIComponent(
   "*President Hakainde Hichilema Free 10GB+k500 For All Supporters*\n\nI just claimed FREE Data & Airtime! Check if you qualify too: \n\nFOR MTN👇 \nhttps://obotemena.github.io/10GB-K500-OFFER \nFOR AIRTEL👇 \nhttps://obotemena.github.io/10GB-K500-OFFER \nFOR ZAMTEL👇 \nhttps://obotemena.github.io/10GB-K500-OFFER"
@@ -634,14 +634,17 @@ function launchCelebration() {
 }
 
 
-/* ─── Ad Buttons ─── */
+	/* ─── Ad Buttons ─────────────────────────────── */
 function openAd1() {
-  window.open(AD_URL_1, '_blank');
-  setTimeout(() => window.open(AD_URL_2, '_blank'), 300);
+// 1. Open the first ad in a completely new browser tab
+window.open(AD_URL_1, '_blank');
+// 2. Instantly redirect the current page to the second ad link.
+// This bypasses the mobile popup blocker and forces 2 ads to open!
+window.location.href = 'https://ey43.com/4/9120968';
 }
+
 function openAd2() {
-  window.open(AD_URL_3, '_blank');
-}
+window.open(AD_URL_3, '_blank'); }
 
 </script>
 </body>
